@@ -65,6 +65,12 @@ a {
   color: white;
 }
 
+.createNew {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -130,6 +136,12 @@ a {
 
 .t_white {
   color: white;
+}
+
+.createNew {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
 }
 
 header {
@@ -232,6 +244,12 @@ a {
 
 .t_white {
   color: white;
+}
+
+.createNew {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
 }
 
 .contents {
@@ -350,6 +368,12 @@ a {
 
 .t_white {
   color: white;
+}
+
+.createNew {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
 }
 
 .footer-up {
@@ -506,6 +530,12 @@ a {
   color: white;
 }
 
+.createNew {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
 .comics-container {
   position: relative;
 }
@@ -615,6 +645,12 @@ a {
   color: white;
 }
 
+.createNew {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
 .bonus {
   background-color: #0282F9;
   padding: 20px 0;
@@ -717,6 +753,12 @@ a {
 
 .t_white {
   color: white;
+}
+
+.createNew {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
 }
 
 .singleComic-container {
