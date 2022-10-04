@@ -8,10 +8,10 @@
         <div class="card-container">
             @foreach ($comics as $item)
                 <div class="card">
-                    {{-- <a href="{{route('comic_detail', ['id' => $key])}}"> --}}
+                    <a href="{{route('comics.show', ['comic' => $item])}}">
                         <img src="{{$item->thumb}}" alt="{{$item->title}}">
                         <div>{{$item->series}}</div>
-                    {{-- </a> --}}
+                    </a>
                 </div>
             @endforeach
         </div>
