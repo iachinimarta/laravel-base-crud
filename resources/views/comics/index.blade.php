@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="bonus">
+    {{-- <div class="bonus">
         <ul>
             <li>
                 <div class="img-container">
@@ -66,5 +66,5 @@
                 </h3>
             </li>
         </ul>
-    </div>
+    </div> --}}
 @endsection
