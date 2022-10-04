@@ -61,14 +61,41 @@ a {
   text-align: center;
 }
 
+.t_right {
+  text-align: right;
+}
+
 .t_white {
   color: white;
+}
+
+.t_blue {
+  color: #0282f9;
 }
 
 .createNew {
   color: white;
   text-align: center;
   padding: 50px 0;
+}
+
+.new_btn {
+  height: 15px;
+  width: 15px;
+}
+
+.p_10 {
+  margin: 10px 0;
+}
+
+.fa-trash {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.d_iblock {
+  display: inline-block;
 }
 
 * {
@@ -134,14 +161,41 @@ a {
   text-align: center;
 }
 
+.t_right {
+  text-align: right;
+}
+
 .t_white {
   color: white;
+}
+
+.t_blue {
+  color: #0282f9;
 }
 
 .createNew {
   color: white;
   text-align: center;
   padding: 50px 0;
+}
+
+.new_btn {
+  height: 15px;
+  width: 15px;
+}
+
+.p_10 {
+  margin: 10px 0;
+}
+
+.fa-trash {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.d_iblock {
+  display: inline-block;
 }
 
 header {
@@ -242,14 +296,41 @@ a {
   text-align: center;
 }
 
+.t_right {
+  text-align: right;
+}
+
 .t_white {
   color: white;
+}
+
+.t_blue {
+  color: #0282f9;
 }
 
 .createNew {
   color: white;
   text-align: center;
   padding: 50px 0;
+}
+
+.new_btn {
+  height: 15px;
+  width: 15px;
+}
+
+.p_10 {
+  margin: 10px 0;
+}
+
+.fa-trash {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.d_iblock {
+  display: inline-block;
 }
 
 .contents {
@@ -366,14 +447,41 @@ a {
   text-align: center;
 }
 
+.t_right {
+  text-align: right;
+}
+
 .t_white {
   color: white;
+}
+
+.t_blue {
+  color: #0282f9;
 }
 
 .createNew {
   color: white;
   text-align: center;
   padding: 50px 0;
+}
+
+.new_btn {
+  height: 15px;
+  width: 15px;
+}
+
+.p_10 {
+  margin: 10px 0;
+}
+
+.fa-trash {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.d_iblock {
+  display: inline-block;
 }
 
 .footer-up {
@@ -526,14 +634,41 @@ a {
   text-align: center;
 }
 
+.t_right {
+  text-align: right;
+}
+
 .t_white {
   color: white;
+}
+
+.t_blue {
+  color: #0282f9;
 }
 
 .createNew {
   color: white;
   text-align: center;
   padding: 50px 0;
+}
+
+.new_btn {
+  height: 15px;
+  width: 15px;
+}
+
+.p_10 {
+  margin: 10px 0;
+}
+
+.fa-trash {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.d_iblock {
+  display: inline-block;
 }
 
 .comics-container {
@@ -555,6 +690,7 @@ a {
   width: calc(16.6666666667% - 40px);
   height: 125px;
   margin: 20px;
+  border-bottom: 20px solid black;
 }
 
 .comics-container .card-container .card img {
@@ -641,14 +777,41 @@ a {
   text-align: center;
 }
 
+.t_right {
+  text-align: right;
+}
+
 .t_white {
   color: white;
+}
+
+.t_blue {
+  color: #0282f9;
 }
 
 .createNew {
   color: white;
   text-align: center;
   padding: 50px 0;
+}
+
+.new_btn {
+  height: 15px;
+  width: 15px;
+}
+
+.p_10 {
+  margin: 10px 0;
+}
+
+.fa-trash {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.d_iblock {
+  display: inline-block;
 }
 
 .bonus {
@@ -751,14 +914,41 @@ a {
   text-align: center;
 }
 
+.t_right {
+  text-align: right;
+}
+
 .t_white {
   color: white;
+}
+
+.t_blue {
+  color: #0282f9;
 }
 
 .createNew {
   color: white;
   text-align: center;
   padding: 50px 0;
+}
+
+.new_btn {
+  height: 15px;
+  width: 15px;
+}
+
+.p_10 {
+  margin: 10px 0;
+}
+
+.fa-trash {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.d_iblock {
+  display: inline-block;
 }
 
 .singleComic-container {

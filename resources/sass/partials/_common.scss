@@ -63,12 +63,39 @@ a {
     text-align: center;
 }
 
+.t_right {
+    text-align: right;
+}
+
 .t_white {
     color: white;
+}
+
+.t_blue {
+    color: #0282f9;
 }
 
 .createNew {
     color: white;
     text-align: center;
     padding: 50px 0;
+}
+
+.new_btn {
+    height: 15px;
+    width: 15px;
+}
+
+.p_10 {
+    margin: 10px 0;
+}
+
+.fa-trash {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.d_iblock {
+    display: inline-block;
 }

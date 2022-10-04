@@ -13,7 +13,7 @@
                     <a href="{{route('comics')}}">COMICS</a>
                 </li>
                 <li>
-                    <a href="{{route('comics.create')}}">INSERT NEW</a>
+                    <a href="#">MOVIES</a>
                 </li>
                 <li>
                     <a href="#">TV</a>

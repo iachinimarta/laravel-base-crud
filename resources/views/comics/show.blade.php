@@ -9,7 +9,7 @@
             <div class="singleComic-description">
                 <div class="up">
                     <h1>{{$comic['title']}}</h1>
-                    <div class="singleComic-price">U.S. Price: {{$comic['price']}}</div>
+                    <div class="singleComic-price">U.S. Price: {{$comic['price']}} &dollar;</div>
                     <div class="singleComic-text">{{$comic['description']}}</div>
                 </div>
                 <div class="down">
@@ -21,7 +21,7 @@
                         </div>
                         <div class="by">
                             <div>U.S. Price:</div>
-                            <div class="right-section">{{$comic['price']}}</div>
+                            <div class="right-section">{{$comic['price']}} &dollar;</div>
                         </div>
                         <div class="by">
                             <div>On Sale Date:</div>

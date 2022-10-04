@@ -5,6 +5,11 @@
 @section('content')
     <div class="comics-container">
         <div class="current-series btn">CURRENT SERIES</div>
+        @if (session('status'))
+            <h1 class="t_blue t_center">
+                {{ session('status') }}
+            </h1>
+        @endif
         <div class="card-container">
             @foreach ($comics as $item)
                 <div class="card">
@@ -12,14 +17,22 @@
                         <img src="{{$item->thumb}}" alt="{{$item->title}}">
                         <div>{{$item->series}}</div>
                     </a>
+                    <div class="t_right t_blue">
+                        <a href="{{route('comics.edit', ['comic' => $item])}}"><i class="fa-solid fa-pencil"></i></a>
+
+                        <form action="{{route('comics.destroy', ['comic' => $item])}}" method="POST" class="d_iblock">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="fa-solid fa-trash t_blue"></button>
+                        </form>
+                    </div>
                 </div>
+                
             @endforeach
         </div>
         <div class="d-flex">
             <div class="btn">
-                <a href="#">
-                    LOAD MORE
-                </a>
+                <a href="{{route('comics.create')}}">INSERT NEW</a>
             </div>
         </div>
     </div>
