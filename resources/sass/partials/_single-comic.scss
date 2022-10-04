@@ -1,0 +1,60 @@
+@import "./common.scss";
+
+.singleComic-container {
+    background-color: white;
+    .blue-section {
+        height: 70px;
+        background-color: #0282f9;
+        position: relative;
+
+        .singleComic-thumb {
+            height: 250px;
+            position: absolute;
+            left: 25%;
+            bottom: 40%;
+            border: 2px solid white;
+        }
+    }
+
+    .singleComic-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+
+        .up {
+            width: 1000px;
+
+            .singleComic-price {
+                height: 40px;
+                background-color: #55BA59;
+                line-height: 40px;
+                vertical-align: middle;
+                color: white;
+                padding-left: 20px;
+            }
+
+            .singleComic-text {
+                color: rgb(104, 103, 103);
+            }
+        }
+
+        .down {
+            height: 400px;
+            width: 1000px;
+            display: flex;
+            margin-top: 30px;
+
+            .singleComic-talent, .singleComic-specs {
+                width: 50%;
+            }
+
+            .singleComic-specs {
+                padding-left: 30px;
+            }
+        }
+
+        
+    }
+}
