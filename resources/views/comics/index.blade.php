@@ -12,22 +12,23 @@
         @endif
         <div class="card-container">
             @foreach ($comics as $item)
-                <div class="card">
-                    <a href="{{route('comics.show', ['comic' => $item])}}">
-                        <img src="{{$item->thumb}}" alt="{{$item->title}}">
-                        <div>{{$item->series}}</div>
-                    </a>
-                    <div class="t_right t_blue">
-                        <a href="{{route('comics.edit', ['comic' => $item])}}"><i class="fa-solid fa-pencil"></i></a>
-
-                        <form action="{{route('comics.destroy', ['comic' => $item])}}" method="POST" class="d_iblock" onsubmit="return confirm('Are you sure you want to delete the item?')">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="fa-solid fa-trash t_blue"></button>
-                        </form>
-                    </div>
-                </div>
-                
+                <div class="card_wrapper">
+                    <div class="card">
+                        <a href="{{route('comics.show', ['comic' => $item])}}">
+                            <img src="{{$item->thumb}}" alt="{{$item->title}}">
+                            {{$item->title}}
+                        </a>
+                        <div class="t_blue action_container">
+                            <a href="{{route('comics.edit', ['comic' => $item])}}"><i class="fa-solid fa-pencil"></i></a>
+    
+                            <form action="{{route('comics.destroy', ['comic' => $item])}}" method="POST" class="d_iblock" onsubmit="return confirm('Are you sure you want to delete the item?')">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="fa-solid fa-trash t_blue"></button>
+                            </form>
+                        </div>
+                    </div>  
+                </div>                    
             @endforeach
         </div>
         <div class="d-flex">

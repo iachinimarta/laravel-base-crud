@@ -15,31 +15,66 @@
 
         <div>
             <label for="comicTitle">Comic Title</label>
-            <input type="text" class="form-control" id="comicTitle" name="title" value="{{$comic->title}}">
+            <input type="text" class="form-control" id="comicTitle" name="title" value="{{old('title', $comic->title)}}">
+            @error('title')
+                <div class='invalid-feedback'>
+                    {{$message}}
+                </div>
+            @enderror
         </div>
         <div>
             <label for="imageSrc">Image Src</label>
-            <input type="text" id="imageSrc" name="thumb" value="{{$comic->thumb}}">
+            <input type="text" id="imageSrc" name="thumb" value="{{old('title', $comic->thumb)}}">
+            @error('thumb')
+                <div class='invalid-feedback'>
+                    {{$message}}
+                </div>
+            @enderror
         </div>
         <div>
             <label for="comicPrice">Comic Price</label>
             <input type="text" class="form-control" id="comicPrice" name="price" value="{{$comic->price}}">
+            @error('price')
+                <div class='invalid-feedback'>
+                    {{$message}}
+                </div>
+            @enderror
         </div>
         <div>
             <label for="comicSeries">Comic Series</label>
             <input type="text" id="comicSeries" name="series" value="{{$comic->series}}">
+            @error('series')
+                <div class='invalid-feedback'>
+                    {{$message}}
+                </div>
+            @enderror
         </div>
         <div>
             <label for="saleDate">Sale Date</label>
-            <input type="text" id="saleDate" name="sale_date" value="{{$comic->sale_date}}">
+            <input type="text" id="saleDate" name="sale_date" value="{{old('title', $comic->sale_date)}}">
+            @error('sale_date')
+                <div class='invalid-feedback'>
+                    {{$message}}
+                </div>
+            @enderror
         </div>
         <div>
             <label for="comicType">Comic Type</label>
-            <input type="text" id="comicType" name="type" value="{{$comic->type}}">
+            <input type="text" id="comicType" name="type" value="{{old('title', $comic->type)}}">
+            @error('type')
+                <div class='invalid-feedback'>
+                    {{$message}}
+                </div>
+            @enderror
         </div>
         <div>
             <label for="floatingTextarea">Comic Description</label>
-            <textarea id="floatingTextarea" name="description">{{$comic->description}}</textarea>        
+            <textarea id="floatingTextarea" name="description">{{old('title', $comic->title)}}</textarea>        
+            @error('description')
+                <div class='invalid-feedback'>
+                    {{$message}}
+                </div>
+            @enderror 
         </div>
         <button type="submit">Submit</button>
     </form>
